@@ -18,7 +18,7 @@
 import hashlib
 import json
 from time import time
-from uuid import uuid4
+
 
 class Blockchain(object):
     def _init_(self):
