@@ -21,7 +21,7 @@ from time import time
 
 
 class Blockchain(object):
-    def _init_(self):
+    def __init__(self):
         self.chain = []
         self.current_transactions = []
         # Create the genesis block
